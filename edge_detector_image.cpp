@@ -30,7 +30,7 @@ int main(){
     int counter;
     unsigned char *grayImage;
     unsigned char *blurImage;
-     string inputPath="picture5.jpg";
+     string inputPath="imagen.jpg";
     int width,height,channels;
     unsigned char *img = stbi_load(inputPath.c_str(), &width, &height, &channels, 0);
     if(img ==NULL) {
